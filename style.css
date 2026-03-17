@@ -1,0 +1,47 @@
+body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+.navbar-container{
+    width: 80%;
+    display: flex;
+}
+
+.logo{
+    width: 35%;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.item{
+    width: 50%;
+
+}
+
+.items ul{
+   list-style: none;
+   display: flex;
+   gap: 2rem;
+}
+.botton{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.marketing{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 30;
+    
+}
+h1{
+    font: bold;
+}
