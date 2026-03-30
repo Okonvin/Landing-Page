@@ -11,13 +11,70 @@
     justify-content: space-between;
     margin: 50px auto;
 }
+.container-1 h2, a{
+    text-decoration: none;
+    color: black;
+}
 .form-box{
     width: 80%;
     display: flex;
     justify-content: center;
     padding-top: 100px;
-    
+    background-color: aqua;
+    margin: auto;
 }
 .logos img{
     width: 30px;
+}
+.form-container h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+.form-field{
+    padding-top: 50px;
+}
+.input-field{
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+    border-radius: 3px;
+}
+.input-field i{
+    position: absolute;
+    left: 10px;
+    height: 20px;
+    width: 20px;
+}
+
+input{
+    width: 100%;
+    padding: 18px 15px;
+    outline: 0;
+    padding-left: 40px;
+}
+.signup-btn{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.signup-btn button{
+    padding: 10px 50px;
+    background-color: #6534D9;
+    border-radius: 50px;
+    color: white;
+}
+.signup-btn p{
+    padding-top: 10px;
+}
+.signup-btn a{
+    text-decoration: none;
+}
+
+.logos{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
 }
