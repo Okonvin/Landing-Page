@@ -191,6 +191,7 @@ h1{
     width: 300px;
     padding-top: 75px;
 }
+ 
 /* section 7 */
 .sec-7{
     width: 80%;
@@ -245,6 +246,12 @@ h1{
     padding: 10px;
 }
 /* footer */
+
+.footer-div{
+    width: 100%;
+}
+
+
 .footer{
     width: 80%;
     display: flex;
@@ -266,4 +273,16 @@ h1{
 }
 .footer-btn{
     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .navbar-container ul li{
+        display: block;
+    }
+    .navbar-container{
+        position: absolute;
+        
+    }
 }

@@ -15,13 +15,14 @@
     text-decoration: none;
     color: black;
 }
+/* section 2 */
 .form-box{
     width: 80%;
     display: flex;
     justify-content: center;
     padding-top: 100px;
     background-color: aqua;
-    margin: auto;
+    margin:  auto;
 }
 .logos img{
     width: 30px;
@@ -77,4 +78,16 @@ input{
     display: flex;
     justify-content: space-between;
     padding-top: 50px;
+}
+@media (max-width: 768px) {
+    .form-box{
+        display: block;
+        width: 80%;
+    }
+    .img-container img{
+        max-width: 100%;
+    }
+    .container-1 a, h2{
+        font-size: 20px;   
+    }
 }
